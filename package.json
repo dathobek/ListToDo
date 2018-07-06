@@ -12,19 +12,4 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-<<<<<<< HEAD
-  }
-}
-=======
-  },
-  "devDependencies": {
-    "babel-core": "^6.26.3",
-    "babel-loader": "^7.1.5",
-    "babel-preset-es2015": "^6.24.1",
-    "babel-preset-react": "^6.24.1",
-    "react-hot-loader": "^4.3.3",
-    "webpack": "^4.15.1",
-    "webpack-dev-server": "^3.1.4"
-  }
-}
->>>>>>> 5b870b98d84a7dc8446e5ceb9834355f5a91180d
+  }}
