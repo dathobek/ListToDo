@@ -14,7 +14,18 @@ class TodoList extends Component {
 
       //declearing the addItem function
     addItem(e){
+       if(this._inputElement.value !== ""){
+           var newItem = {
+               text: this._inputElement.value,
+               key : Date.now
+           };
 
+           this.setState((prevState) => {
+              return {
+               items: this.prevState.items.concat(newItem)
+              };
+           });
+       }
     }
 
     render(){
