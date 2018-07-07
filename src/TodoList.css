@@ -21,12 +21,22 @@
   cursor: pointer;
 }
 .todoListMain .theList {
-  list-style: none;
+  color: #333;
+  background-color: rgba(255,255,255,.5);
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  transition: background-color .2s ease-out;
+  /* list-style: none;
   padding-left: 0;
   text-align: center;
-  font-size: 20px;
+  font-size: 20px; */
   width: 500px;
 } 
+.todoListMain .theList li:hover {
+  background-color: pink;
+  cursor: pointer;
+}
 .todoListMain .theList li {
   color: #333;
   background-color: rgba(255,255,255,.5);
