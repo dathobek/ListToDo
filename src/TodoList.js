@@ -12,7 +12,7 @@ class TodoList extends Component {
           items : []
         };
 
-        this.addItem = this.addItem.bind(this)
+        this.addItem = this.addItem.bind(this);
         this.deleteItem = this.deleteItem.bind(this);
     }
 
@@ -34,7 +34,7 @@ class TodoList extends Component {
            this._inputElement.value="";
        }
 
-       console.log(this.state.items)
+      // console.log(this.state.items)
 
        e.preventDefault();
     }
@@ -62,7 +62,7 @@ class TodoList extends Component {
                 </form>
               </div>
               <TodoItems entries={this.state.items}
-                          delete={this.deleteItem}/>
+                          delete={this.state.deleteItem}/>
             </div>
           );
     }
